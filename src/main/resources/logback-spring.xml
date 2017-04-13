@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+	
+	<!-- Enable JMX MBean to support dynamic configuration -->
+	<jmxConfigurator />
+	
+	<!-- Define Logger Levels -->
+	<logger name="org.springframework" level="INFO"/>
+</configuration>
